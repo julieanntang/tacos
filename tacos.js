@@ -27,7 +27,11 @@ const tacos = [taco, taco1, taco2]
 // formatted html (will be a string technically)
 
 
-// ????
+const String = (x) => {
+  return '<h1>${x}</h1>'
+}
+console.log(String(taco))
+
 
 
 // write a function that takes an tacoOBJ and return formatted price with
